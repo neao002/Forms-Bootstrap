@@ -10,22 +10,50 @@
 </head>
 <body>
 
-    <div class="form-group bg-primary m-5">
+
+    <main>
+        
+    <div class="form-group bg-primary m-2">
         <label for="name">Name</label>
         <input class="form-control" type="text" id="name" placeholder="Enter name">
     </div>
-    <div class="form-group bg-warning m-5">
+    <div class="form-group bg-warning m-2">
         <label for="email">Email address</label>
         <input class="form-control" type="email" id="email" placeholder="Enter email">
+        <small class="form-text text-muted bg-dark">Your email will not ever be shared</small>
     </div>
-    <div class="form-group bg-success m-5">
+    <div class="form-group bg-success m-2">
         <label for="company">Company</label>
         <input class="form-control" type="text" id="company" placeholder="Enter company name">
     </div>
-    <div class="form-group bg-info m-5">
+    <div class="form-group bg-info m-2">
         <label for="password">Password</label>
         <input class="form-control" type="password" id="password" placeholder="Password">
     </div>
+    <div class="form-group bg-success m-2">
+        <label for="gender">Gender</label>
+        <select class="form-control" id="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Diverse</option>
+        </select>
+    </div>
+    
+    <div class="form-group bg-info m-2">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="1"></textarea>
+    </div>
+    <div class="form-group bg-primary m-2">
+        <label for="file">File input</label>
+        <input type="file" id="file" class="form-control-file">
+        <small class="form-text text-muted" id="fileHelp">Max 3mb size</small>
+    </div>
+
+    <div class="custom-file bg-warning mb-3">
+        <input type="file" id="myfile" class="custom-file-input">
+        <label class="custom-file-label" for="myfile">Choose file</label>
+    </div>
+</main>
     
 </body>
 </html>
